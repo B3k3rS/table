@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td,th,table {
+    font-size: 16px;
+}
+
+thead th{
+    padding: 10px 0;
+    color: #fff;
+}
+
+thead th:nth-child(1) {
+    background: #7887ab;
+}
+
+thead th:nth-child(2) {
+    background: #4f628e;
+}
+
+thead th:nth-child(3) {
+    background: #2e4172;
+}
+
+thead th:nth-child(4) {
+    background: #162955;
+}
+
+thead th:nth-child(5) {
+    background: #061539;
+}
+
+th > p:nth-child(2) {
+    padding-top: 15px;
+    font-size: 26px;
+}
+
+tr > td:nth-child(1) {
+    text-align: left;
+}
+
+tr > td {
+    padding: 10px 20px;
+}
+
+
+tbody > tr:nth-child(odd) > td:nth-child(odd) {
+    background: #dbdbdb;
+} 
+
+tbody > tr:nth-child(odd) > td:nth-child(even),
+tbody > tr:nth-child(even) > td:nth-child(odd) {
+    background: #e7e7e7;
+}
+
+tbody > tr:nth-child(even) > td:nth-child(even) {
+    background: #f3f3f3;
+} 
+
+tfoot > tr > td:nth-child(odd) {
+    background: #dbdbdb;
+}
+
+tfoot > tr > td:nth-child(even) {
+    background: #e7e7e7;
+}
+
+button {
+    padding: 5px 25px;
+    text-transform: uppercase;
+    border: 1px solid #adadad;
+    color: #adadad;
+}
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
